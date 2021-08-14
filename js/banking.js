@@ -9,4 +9,9 @@ document.getElementById('deposit-button').addEventListener('click', function(){
         const depositTotal = document.getElementById('deposit-total');
         depositTotal.innerText = depositAmount;
 
+    // clear deposit input
+
+    depositInput.value = '';
+       
+
 })
