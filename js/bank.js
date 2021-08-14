@@ -15,7 +15,5 @@ document.getElementById('login-submit').addEventListener('click', function() {
     if(userEmail == 'sontan@baap.com' && userPassword == 'hola'){
         window.location.href="banking.html";
     }
+});
 
-
-
-})
